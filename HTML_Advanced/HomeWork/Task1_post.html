@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Task 1</title>
+    <link href="css/min.css" rel="stylesheet">
+  </head>
+  <body>
+  <h1>TASK 1</h1>
+  <h3>Registration form</h3>
+  <ul>
+  	<li>Create this form</li>
+	<li>Use browser validation</li>
+	<li>Use http://httpbin.org/</li>
+	<li>Create two variants: one should use get method, the other should use post method</li>
+  </ul>
+	<form action="http://httpbin.org/post" method="post">
+  		<fieldset>
+  			<legend>Personal Data</legend>
+  			<table>
+  				<tr>
+  					<td><label for="surname">Surname:</label></td>
+  					<td><input id="surname" type="text" name="Surname"></td>
+  				</tr>
+  				<tr>
+  					<td><label for="firstname">First name:</label></td>
+  					<td><input id="firstname" type="text" name="FirstName"></td>
+  				</tr>
+  				<tr>
+  					<td>SEX:</td>
+  					<td><label><input type="radio" name="sex" value="male" checked>male</label><br>
+			  			<label><input type="radio" name="sex" value="female">female</label>
+			  		</td>
+  				</tr>
+  			</table>
+  		</fieldset>
+  		<fieldset>
+  			<legend>Contact</legend>
+  			<table>
+  				<tr>
+  					<td><label for="site">Site:</label></td>
+  					<td><input id="site" type="url" name="Site"></td>
+  				</tr>
+  				<tr>
+  					<td><label for="email">Email:</label></td>
+  					<td><input id="email" type="email" name="Email"></td>
+  				</tr>
+  				<tr>
+  					<td><label for="tel">Phone:</label></td>
+  					<td><input id="tel" type="tel" name="Phone"></td>
+  				</tr>
+  			</table>
+  		</fieldset>
+<br>
+<input type="submit">
+<input type="reset"><br>
+	</form>
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Task 3</title>
+  </head>
+  <body>
+		 <h1>Task 3</h1>
+		 <h3>Form</h3>
+		 <ul>
+		 	<li>Create this form in two variants: get and post methods
+			<li>Use browser validation </li>
+			<li>Use http://httpbin.org/</li>
+			<li>The "Reset" button should clear the form</li>
+			<li>Pay attention to the layout</li>
+		 </ul>
+		<form action="http://httpbin.org/post" method="post">
+  		<fieldset>
+  			<legend>Personal Data</legend>
+  			<table>
+  				<tr>
+  					<td><label for="surname">Surname:</label></td>
+  					<td><input id="surname" type="text" name="Surname"></td>
+  				</tr>
+  				<tr>
+  					<td><label for="firstname">First name:</label></td>
+  					<td><input id="firstname" type="text" name="FirstName"></td>
+  				</tr>
+  				<tr>
+  					<td><label for="middlename">Middle name:</label></td>
+  					<td><input id="middlename" type="text" name="MiddleName"></td>
+  				</tr>
+  				<tr>
+  					<td>You are:</td>
+  					<td><label><input type="radio" name="sex" value="male">male</label><br>
+			  			<label><input type="radio" name="sex" value="female">female</label></td>
+  				</tr>
+  				<tr>
+  					<td><lable for="age">Age:</lable></td>
+  					<td><input id="age" type="number" name="Age" step="5" min="18" max="100"></td>
+  				</tr>
+  				<tr>
+  					<td>City:</td>
+  					<td><label><input type="radio" name="City" value="ryazan"> Ryazan</label><br>
+			  			<label><input type="radio" name="City" value="msc"> Moscow</label></td>
+  				</tr>
+  				<tr>
+  					<td>Photo:</td>
+  					<td><input type="file" name="file"></td>
+  				</tr>
+  				<tr>
+  					<td></td>
+  					<td></td>
+  				</tr>
+  			</table>
+  			<hr>
+  			<table>
+  				<tr>
+  					<td>Title:</td>
+  					<td><select multiple><optgroup label="Technologys">
+            <option>Web master</option>
+            <option>Database Administrartor</option>
+            <option>Computer-aided disigner</option>
+            </optgroup>
+            <optgroup label="Finance">
+            <option>Menegment</option>    
+            <option>Planning</option>    
+            </optgroup></select></p></td>
+  				</tr>
+  				<tr>
+  					<td>Range</td>
+  					<td><input type="range" value="20"></td>
+  				</tr>
+  			</table>
+  			<label>
+  				<textarea name="message"  rows="10" cols="15" placeholder="Введите текст"></textarea><br>
+        </fieldset>
+      
+      
+  		<fieldset>
+  			<legend>Contact</legend>
+  			<table>
+  				<tr>
+  					<td><label for="site">Site:</label></td>
+  					<td><input id="site" type="url" name="Site"></td>
+  				</tr>
+  				<tr>
+  					<td><label for="email">Email:</label></td>
+  					<td><input id="email" type="email" name="Email"></td>
+  				</tr>
+  				<tr>
+  					<td><label for="tel">Phone:</label></td>
+  					<td><input id="tel" type="tel" name="Phone"></td>
+  				</tr>
+  			</table>
+  		</fieldset>
+      <label>Password: <input type="password" name="password" required></label><br>
+		<hr>
+		<input type="submit" name="submit">
+		<input type="reset" name="reset"><br>
+	</form>
+
+  </body>
+</html>

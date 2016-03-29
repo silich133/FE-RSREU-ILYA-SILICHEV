@@ -1,0 +1,168 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Classwork</title>
+        <meta charset="utf-8">
+    </head>
+    
+    <body>
+    <h1>Class Work</h1>
+    <h2>Create this page</h2>    
+        <ul>
+            <li><a href="http://yandex.ru/" target="_blank">Searching</a></li>
+            <li><a href="http://youtube.ru/" target="_blank">YouTube</a></li>
+            <li><a href="https://www.google.ru/maps/" target="_blank">Card</a></li>
+            <li><a href="https://play.google.com/store" target="_blank">Play</a></li>
+            <li><a href="http://www.newsru.com/" target="_blank">News</a></li>
+            <li><a href="https://mail.ru/" target="_blank">Mail</a></li>
+        </ul>
+        
+        <ol>
+            <li value="7">Searching</li>
+            <li>Card</li>
+            <li>Market</li>
+            <li>News</li>
+            <li>Dictionaries</li>
+            <li>Pictires</li>
+            <li>Yet
+                <ul>
+                    <li>Flights</li>
+                    <li>Auto</li>
+                    <li>Poster</li>
+                    <li>Blogs</li>
+                </ul>
+            </li>
+        </ol>
+        
+        <dl>
+            <dt><em>Tag</em></dt>
+            <dd>elements of Hypertext Markup Language</dd>
+            <dt><em>The Semantic Web</em></dt>
+            <dd>This direction of dexelipment of the World Wide Web the aim of which is to provide information in a form suitable for machine processing</dd>
+        </dl>
+    
+    <hr>
+
+    <p align="center">CSS Generated content for pseudo-elements</p>
+    <table border="2" width="100%">
+        <tr>
+            <th>IE</th>
+            <th>Firefox</th>
+            <th>Chrome</th>
+            <th>Safari</th>
+            <th>Opera</th>
+            <th>iOS Safari</th>
+            <th>Opera Mini</th>
+            <th>Android Browser</th>
+            <th>Chrome for Android</th>
+        </tr>
+        <tr>
+            <td rowspan="2"></td>
+            <td rowspan="4"></td>
+            <td>27</td>
+            <td rowspan="3"></td>
+            <td rowspan="5"></td>
+            <td rowspan="4"></td>
+            <td rowspan="5"></td>
+            <td></td>
+            <td rowspan="5"></td>
+        </tr>
+        <tr>
+            <td>31</td>
+            <td>2.3</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>33</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>34</td>
+            <td>5.1</td>
+            <td>4.1</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>thirty</td>
+            <td>35</td>
+            <td>6.1</td>
+            <td>6.1</td>
+            <td>4.3</td>
+        </tr>
+        <tr>
+            <td>eleven</td>
+            <td>31</td>
+            <td>36</td>
+            <td>7</td>
+            <td>23</td>
+            <td>7.1</td>
+            <td>7</td>
+            <td>4.4</td>
+            <td>36</td>
+        </tr>
+        <tr>
+            <td colspan="9">Method of displaying text of images before or after the given element's contents using the before or after pseudo-elements</td>
+        </tr>
+    </table>
+        
+    <hr>
+    
+    <form action="http://httpbin.org/get" method="get">     
+    <fieldset>
+        
+        <legend>Personal data</legend>
+        <label>Surname: <input type="text" name="surname"></label><br><br>
+        <label>First Name: <input type="text" name="firstname"></label><br><br>
+        <label>Middle Name: <input type="text" name="middlename"></label><br><br>
+        <p>You are<label><input type="radio" name="sex" value="male">male</label>
+        <label><input type="radio" name="sex" value="female">female</label></p>
+        <p>Age:<input type="number" name="age" min="18" max="101" step="10" size="3"></p>
+        <p>Country of Residence: <input list="Countrys"></p>
+        
+        <datalist id="Countrys">
+            <option value="Russia"></option>
+            <option value="USA"></option>
+            <option value="Germany"></option>
+        </datalist>
+        
+        <p>City: <label><input type="checkbox" name="city" value="Ryazan">Ryazan</label>
+        <label><input type="checkbox" name="city" value="Moscow">Moscow</label></p>
+        
+        <p>Photograpy <input type="file" name="file"></p>
+            
+        <hr>
+        
+        <p>
+        Title: 
+        <select multiple><optgroup label="Technologys">
+            <option>Web master</option>
+            <option>Database Administrartor</option>
+            <option>Computer-aided disigner</option>
+            </optgroup>
+            <optgroup label="Finance">
+            <option>Menegment</option>    
+            <option>Planning</option>    
+            </optgroup></select></p>
+        
+        <p>Salary
+        <input type="range"></p>
+        
+        <textarea rows="10" cols="15" placeholder="Ведите текст"></textarea>    
+    </fieldset>
+        
+    <fieldset>
+        <legend>Contact Information</legend>
+        
+        <label>Site: <input type="text" name="site"></label><br><br>
+        <label>E-mail: <input type="email" name="email"></label><br><br>
+        <label>Phone: <input type="text" name="phone"></label><br><br>
+    </fieldset>    
+        
+    <p>Password <input type="password" required name="password"></p> <br> 
+        
+    <input type="submit" name="submit" value="Отправить"><input type="reset" name="reset" value="Сброс">
+    </form>
+        
+    </body>
+</html>
