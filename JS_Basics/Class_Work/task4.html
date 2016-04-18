@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Task 4</title>
+</head>
+<body>
+	<h2>Explain the difference between ++i and i++ with example</h2>
+	<p>
+Оператор i++ увеличивает i, возвращая старое значение:<br>
+<pre>
+var i = 0;
+x=1+(i++);
+console.log(x);//x=1</pre>
+Оператор ++i сначала увеличивает i, возвращая новое значение:<br> 
+<pre>
+var i = 0;
+x=1+(i++);
+console.log(x);//x=2</pre></p>
+
+<i>(Пример в виде скрипта прилагается)</i>
+<script type="text/javascript">
+	var i = 0;
+x=1+(i++);
+console.log(x);
+
+var y = 0;
+j=1+(++y);
+console.log(j);
+</script>
+</body>
+</html>
