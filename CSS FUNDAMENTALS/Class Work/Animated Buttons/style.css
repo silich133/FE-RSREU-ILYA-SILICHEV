@@ -1,0 +1,162 @@
+body {
+	font: 1.1em arial;
+	width: 600px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 3em;
+	text-align: center;
+}
+
+.boxes {
+	font: 1.2em;
+	color: white;
+	display: inline-block;
+	text-align: center;
+}
+
+.box1 {
+display: inline-block;
+	margin: 15px;
+	text-align: center;
+	line-height: 150px;
+	width: 150px;
+	height: 150px;
+	background-color: #1e90ff;
+	color: white;
+	transition: background-color 1s, color 1s;
+}
+
+.box1:hover {
+	background-color: white;
+	color: #1e90ff;
+}
+
+
+.box2 {
+display: inline-block;
+	margin: 15px;
+	text-align: center;
+	line-height: 150px;
+	width: 150px;
+	height: 150px;
+	background: #1e90ff;
+}
+
+.box2:hover {
+	transition: opacity 1s;
+	opacity: 0;
+}
+
+
+
+.box3 {
+display: inline-block;
+	margin: 15px;
+	text-align: center;
+	line-height: 150px;
+	width: 150px;
+	height: 150px;
+	background: #1e90ff;
+}
+
+.box3:hover {
+	transform: scale(2) ;
+	opacity: 0;
+	transition: all 1s;
+}
+
+.box4 {
+display: inline-block;
+	margin: 15px;
+	text-align: center;
+	line-height: 150px;
+	width: 150px;
+	height: 150px;
+	background: #1e90ff;
+	transition: all 1s;
+		
+}
+
+.box4:hover {
+	width: 75px;
+	height: 75px;
+	text-align: center;
+	line-height: 75px;
+}
+
+.box5 {
+display: inline-block;
+	margin: 15px;
+	text-align: center;
+	line-height: 150px;
+	width: 150px;
+	height: 150px;
+	background: #1e90ff;
+	transition: transform 1s;
+}
+
+.box5:hover {
+	transform: rotate(90deg);
+}
+
+.box6 {
+	display: inline-block;
+	margin: 15px;
+	text-align: center;
+	line-height: 150px;
+	width: 150px;
+	height: 150px;
+	background: #1e90ff;
+	transition: height 1s;
+}
+
+.box6:hover {
+	height: 0;
+}
+
+.box7 {
+display: inline-block;
+	margin: 15px;
+	text-align: center;
+	line-height: 150px;
+	width: 150px;
+	height: 150px;
+	background: #1e90ff;
+	transition: all 1s;
+}
+
+.box7:hover {
+	transform: scale(0);
+}
+
+.box8 {
+display: inline-block;
+	margin: 15px;
+	text-align: center;
+	line-height: 150px;
+	width: 150px;
+	height: 150px;
+	background: #1e90ff;
+	transition: all 1s;
+}
+
+.box8:hover {
+transform: scale(1.5, 0) ;
+}
+
+.box9 {
+display: inline-block;
+	margin: 15px;
+	text-align: center;
+	line-height: 150px;
+	width: 150px;
+	height: 150px;
+	background: #1e90ff;
+	transition: all 1s;
+}
+
+.box9:hover {
+	transform: skewX(90deg) skewY(90deg) scale(0);
+}

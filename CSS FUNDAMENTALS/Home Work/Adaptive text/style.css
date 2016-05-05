@@ -1,0 +1,10 @@
+.text {
+	font-size: 100%;
+	background: #7bb87b;
+	margin: 20px;
+	padding: 15px;
+}
+
+@media (max-width: 500px) {
+	body { font-size: 2rem; }
+}

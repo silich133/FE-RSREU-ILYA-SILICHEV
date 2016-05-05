@@ -1,0 +1,164 @@
+html, body {
+    margin: 0;
+    width: 100%;
+}
+#menu {
+    background-image: url(bg.png);
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    background-repeat: repeat;
+}
+#mail {
+    width: 70px;
+    height: 100%;
+    background-color: #3779b0;
+    background-image: url(icons/mail.png);
+    background-repeat:no-repeat;
+    background-position: 20% 50%;
+    border-right: 1px solid #05518e;
+    float:left;
+}
+#mail:hover {
+    background-color: #e03838;
+    cursor: pointer;
+}
+
+#news {
+    width: 130px;
+    height: 100%;
+    background-color: #3779b0;
+    background-image: url(icons/page.png);
+    background-repeat:no-repeat;
+    background-position: 20% 50%;
+    float:left;
+    border-right: 1px solid #05518e;
+    border-left: 1px solid #05518e;
+}
+#news:hover {
+    background-color: #e03838;
+    cursor: pointer;
+}
+
+#user {
+    width: 50px;
+    height: 100%;
+    background-color: #3779b0;
+    background-image: url(icons/user.png);
+    background-repeat:no-repeat;
+    background-position: 20% 50%;
+    float:left;
+    border-right: 1px solid #05518e;
+    border-left: 1px solid #05518e;
+}
+#user:hover {
+    background-color: #e03838;
+    cursor: pointer;
+}
+
+#flag {
+    width: 40px;
+    height: 100%;
+    background-color: #3779b0;
+    background-image: url(icons/flag.png);
+    background-repeat:no-repeat;
+    background-position: center; 
+    float:left;
+    border-right: 1px solid #05518e;
+    border-left: 1px solid #05518e;
+}
+#flag:hover {
+    background-color: #e03838;
+    cursor: pointer;
+}
+
+
+#list {
+    width: 40px;
+    height: 100%;
+    background-color: #3779b0;
+    background-image: url(icons/checked.png);
+    background-repeat:no-repeat;
+    background-position: center; 
+    float:left;
+    border-right: 1px solid #05518e;
+    border-left: 1px solid #05518e;
+}
+#list:hover {
+    background-color: #e03838;
+    cursor: pointer;
+}
+
+#exit {
+    width: 120px;
+    height: 100%;
+    background-color: #2f2f35;
+    background-position: right; 
+    float:right;
+    border-right: 1px solid #05518e;
+    border-left: 1px solid #05518e;
+}
+#exit:hover {
+    background-color: #e03838;
+    cursor: pointer;
+}
+#text {
+        padding-top: 4%;
+        padding-left: 15%;
+        color: white;
+}
+#door {
+    background-image: url(icons/exit.png);
+    width: 15%;
+    height: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    top: -60%;
+    right: -75%;
+}
+
+#widget {
+    width: 40px;
+    height: 100%;
+    background-color: #3779b0;
+    background-image: url(icons/widget.png);
+    background-repeat:no-repeat;
+    background-position: center; 
+    float:right;
+    border-right: 1px solid #05518e;
+    border-left: 1px solid #05518e;
+}
+#widget:hover {
+    background-color: #e03838;
+    cursor: pointer;
+}
+
+#refresh {
+    width: 40px;
+    height: 100%;
+    background-color: #3779b0;
+    background-image: url(icons/refresh.png);
+    background-repeat:no-repeat;
+    background-position: center; 
+    float:right;
+    border-right: 1px solid #05518e;
+    border-left: 1px solid #05518e;
+}
+#refresh:hover {
+    background-color: #e03838;
+    cursor: pointer;
+}
+
+.new {
+    position: relative;
+    display: inline-block;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+    top: 12%;
+    left: 50%;
+}
+.text::after, .text::before {
+    content: "\00a0 ";
+}

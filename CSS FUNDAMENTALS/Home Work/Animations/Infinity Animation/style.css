@@ -1,0 +1,25 @@
+.animation {
+	margin: 100px auto;
+	background: linear-gradient(#af8675, #f1da36);
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	animation: circle-to-square 2s infinite linear;
+}
+
+@keyframes circle-to-square {
+	0% {
+		border-radius: 50%;
+		background: linear-gradient(#af8675, #f1da36);
+	}
+
+	50% {
+		border-radius: 0;
+		background: linear-gradient(#af8675, #f1da36);
+	}
+
+	100% {
+		border-radius: 0;
+		background: linear-gradient(#af85, #f1da);
+	}
+}

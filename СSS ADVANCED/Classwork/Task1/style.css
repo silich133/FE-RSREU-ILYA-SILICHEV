@@ -1,0 +1,44 @@
+.container {
+			height: 150px;
+			margin: 40px;
+			padding: 7px;
+			background: rgba(0,150,100,0.6);
+			border: 2px solid rgba(0,100,80,1);
+			border-radius: 6px;
+		}
+		.box1 {
+			width: 100%;
+			height: 100%;
+			border-radius: 8px;
+			background-color: #edecde;
+			border: 2px solid gray;
+			overflow: hidden;
+			}
+		.box2 {
+			width: 100%;
+			height: 40px;
+			position: relative;
+			background: linear-gradient(
+				#ffd800,
+				#ffba00
+				);
+			padding: 9px;
+			font-size: 1.2em;
+		}
+		.box2:after {
+			content: "";
+			width: 0;
+			height: 0;
+			position: absolute;
+			bottom: -9px;
+
+			left:5px;
+			border-top: 10px solid #ffba00;
+			border-bottom: none;
+			border-left: 10px solid transparent;
+			border-right: 10px solid transparent;
+		}
+    .box3 {
+    	padding: 9px;
+    	font-size: 0.9em;
+    }

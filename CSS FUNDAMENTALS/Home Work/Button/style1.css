@@ -1,0 +1,12 @@
+button {
+	padding: 10px;
+	font-size: 2em;
+	color: #fff;
+	width: 300px;
+	height: 90px;
+	background: linear-gradient(to top, #4b60db 10%, #3446ad, #4b60db 90%);
+	border: 3px solid #fff;
+	border-radius: 15px;
+	box-shadow: 0px 0px 10px #4b60db;
+
+}

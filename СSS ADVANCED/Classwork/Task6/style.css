@@ -1,0 +1,115 @@
+body {
+    width: 760px;
+}
+#float {
+    width: 750px;    
+}
+
+.pic_1 {
+    width: 200px;
+    background-image: url(th1.png);
+    border: 10px solid #ffffff;
+    outline: 1px solid #e8e8e8;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    position: relative;
+}
+.buttons {
+    margin: 10px;
+    width: 226px;
+}
+button {
+    font-size: 18px;
+    background-color: #fdfdfb;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 5px;
+}
+button:first-child {
+    margin-right: 25px; 
+}
+
+button:hover {
+    background-color: #8ec84a;
+    color: white;
+}
+
+.pic_2 {
+    width: 200px;
+    background-image: url(th2.png);
+    border: 10px solid #ffffff;
+    outline: 1px solid #e8e8e8;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+
+#float .box {
+    float: left;
+}
+
+
+#inline .box {
+    display: inline-block;
+}
+
+#flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#flex .box {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.title {
+    font-size: 20px;
+    color: white;
+    font-family: serif;
+}
+
+.b {
+    color: grey;
+    font-family: serif; 
+    font-size: 20px;
+}
+
+.nick {
+    color: lime;
+    font-family: serif;
+    font-size: 20px;
+}
+
+
+.text_block {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);  
+    display: none;
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -60px;
+    margin-top: -30px;
+}
+
+.pic_1:hover .text_block {
+    display: block;
+}
+
+.pic_2:hover .text_block {
+    display: block;
+}
