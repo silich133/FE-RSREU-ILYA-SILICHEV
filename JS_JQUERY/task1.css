@@ -1,0 +1,42 @@
+.message{
+  display: flex;
+  background-color: #efecdc;
+  border: 1px solid #4bad98;
+  flex-flow: column;
+  border-radius: 5px;
+}
+.main{
+  border: 2px solid #4bad98;
+  padding:7px;
+  background-color: #88e2cf;
+  width: 314px;
+  border-radius: 5px;
+}
+.header{
+  background-color: #ffc700;
+  padding-left: 10px;
+}
+.header p{
+  font-size: 1.3em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.mark{
+  background-color: #efecdc;
+  width: 0;
+  height: 0;
+  top: 0;
+  border: 10px solid transparent;
+  border-top-color:  #ffc700;
+  margin-left:10px;
+}
+.content p{
+  margin-top:0;
+  font-size: .9em;
+  color:#557B84;
+}
+.content{
+  margin-top:-10px;
+  padding-left: 10px;
+}
+
